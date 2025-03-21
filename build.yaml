@@ -1,0 +1,15 @@
+targets:
+  $default:
+    sources:
+      - "lib/**"
+    builders:
+      json_serializable:
+        options:
+          # Options configure how source code is generated for every
+          # `@JsonSerializable`-annotated class in the package.
+          field_rename: snake
+      freezed:
+        options:
+          # Options configure how source code is generated for every
+          # `@freezed`-annotated class in the package.
+          make_collections_unmodifiable: false

@@ -1,0 +1,35 @@
+{
+  "mcpServers": {
+    "taskme-filesystem": {
+      "command": "npx",
+      "args": [
+        "-y",
+        "@modelcontextprotocol/server-filesystem",
+        "/Users/owner/Documents/GitHub/VO2RPG"
+      ]
+    },
+    "brave-search": {
+      "command": "env",
+      "args": [
+        "BRAVE_API_KEY=BSA0JwSQAI-BRF08_Ffknm1XUPNlISt",
+        "npx",
+        "-y",
+        "@modelcontextprotocol/server-brave-search"
+      ]
+    },
+    "sequential-thinking": {
+      "command": "npx",
+      "args": [
+        "-y",
+        "@modelcontextprotocol/server-sequential-thinking"
+      ]
+    },
+    "puppeteer": {
+      "command": "npx",
+      "args": [
+        "-y",
+        "@modelcontextprotocol/server-puppeteer"
+      ]
+    }
+  }
+}
